@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+  --font-retro: 'VT323', monospace;
+  
+  --color-bg: #1a1a1a;
+  --color-screen-bg: #2d3436;
+  --color-screen-glow: #00ff9d; /* Crypto green */
+  --color-text: #e0e0e0;
+  --color-accent: #f1c40f;
+  
+  --device-frame: #f5f6fa;
+  --device-shadow: #2f3640;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-retro);
+  margin: 0;
+  overflow: hidden;
+}
+
+button {
+  font-family: var(--font-retro);
+  cursor: pointer;
+}
